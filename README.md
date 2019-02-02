@@ -1,2 +1,2 @@
 # jenkins-ci
-Try to install jenkins
+Try to install jenkins 2
