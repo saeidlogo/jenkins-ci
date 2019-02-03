@@ -1,0 +1,5 @@
+/target/**
+/src/test/**
+/nbproject/
+nb-configuration.xml
+nbactions.xml
