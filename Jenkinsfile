@@ -3,6 +3,7 @@ node{
     git "https://github.com/saeidlogo/jenkins-ci"
   }
   stage("Compile-Package"){
-    sh "mvn package"
+    def mavenHome=tool name: 'Default maven', type: 'maven'
+    sh "${mavenHome}/bin/mvn package"
   }
 }
